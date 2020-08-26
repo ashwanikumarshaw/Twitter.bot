@@ -27,3 +27,5 @@ Twitter.bot/src/twitter/main/MainRunner.java
 >JDK 1.8 or above 
 
 >selenium-server-standalone-3.141.59
+
+> follow https://twitter.com/this_is_ashu
