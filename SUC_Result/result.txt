@@ -1,0 +1,98 @@
+***********************BROWSER**********************
+
+****************************************************
+
+Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 16612
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1598457621.931][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
+Aug 26, 2020 9:30:25 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+**********************TWITTER********************
+
+****************************************************
+
+Link Opened
+
+**********************LOGIN************************
+
+@yescopied    **********
+Clicked Profile
+
+****************************************************
+
+Clicked followers
+Number of followers :: 1
+
+****************************************************
+
+ covered : 100.0%
+
+****************************************************
+
+Your follower: 
+Ashwani Kumar Shaw
+
+****************************************************
+
+Clicked following
+Number of following :: 25
+Unfollowing Tim Berners-Lee ...
+ covered : 4.0%
+Unfollowing Steve Wozniak ...
+ covered : 8.0%
+Unfollowing RaftaaR ...
+ covered : 12.0%
+Unfollowing Shirley Setia ...
+ covered : 16.0%
+Unfollowing Zakir Khan ...
+ covered : 20.0%
+Unfollowing Bhuvan Bam ...
+ covered : 24.0%
+Unfollowing Amanda Cerny ...
+ covered : 28.000000000000004%
+Unfollowing Hindustan Times ...
+ covered : 32.0%
+Unfollowing Rajnath Singh ...
+ covered : 36.0%
+Unfollowing BJP ...
+ covered : 40.0%
+Unfollowing News18 India ...
+ covered : 44.0%
+Unfollowing BBC News Hindi ...
+ covered : 48.0%
+Unfollowing Amit Shah ...
+ covered : 52.0%
+Unfollowing Subramanian Swamy ...
+ covered : 56.00000000000001%
+Unfollowing TIMES NOW ...
+ covered : 60.0%
+Unfollowing Prajakta Koli ...
+ covered : 64.0%
+Unfollowing PMO India ...
+ covered : 68.0%
+Unfollowing Zee News English ...
+ covered : 72.0%
+Unfollowing NDTV ...
+ covered : 76.0%
+Unfollowing Be YouNick ...
+ covered : 80.0%
+Unfollowing sunnyleone ...
+ covered : 84.0%
+Unfollowing Zee News ...
+ covered : 88.0%
+Unfollowing AajTak ...
+ covered : 92.0%
+ covered : 100%
+****************************************************
+
+Now you follow only: 
+Ashwani Kumar Shaw
+
+************************LOGOUT*********************
+
+
+****************************************************
+
