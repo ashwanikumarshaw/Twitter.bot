@@ -29,3 +29,6 @@ Twitter.bot/src/twitter/main/MainRunner.java
 >selenium-server-standalone-3.141.59
 
 > _follow_ https://twitter.com/this_is_ashu 
+
+#### Automation rules - _Twitter_
+https://help.twitter.com/en/rules-and-policies/twitter-automation
