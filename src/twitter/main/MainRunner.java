@@ -17,7 +17,7 @@ public class MainRunner {
 
 	public static ArrayList<String> following = new ArrayList<String>();
 	public static ArrayList<String> follower = new ArrayList<String>();
-	
+	public static double percent;
 	public static int RunOnly() {
 
 		System.out.println("");
@@ -26,24 +26,24 @@ public class MainRunner {
 		System.out.println("****************************************************");
 		System.out.println("");
 		driver = DriverSetup.configreader();
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 
 		System.out.println("");
-		System.out.println("**********************TWITTER********************");
+		System.out.println("************************TWITTER*********************");
 		System.out.println("");
 		System.out.println("****************************************************");
 		System.out.println("");
-		
+		String titel = null;
 		WeblinkOpen.configreader(driver);
-		String titel =driver.getTitle();
-		if("twitter".contains(titel)) {
+		try {
+			Thread.sleep(30);
+			titel =driver.getTitle();
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		if(titel.contains("Twitter")) {
 			System.out.println("Link Opened");
-			try {
-				Thread.sleep(30);
-			} catch (InterruptedException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
 		}
 		else{
 			System.out.println("Link failed");
@@ -133,15 +133,15 @@ public class MainRunner {
 	    if(ans)
 	    	following.add(Name);
 	    else {
-	    	System.out.println("Unfollowing "+Name+" ...");
+	    	System.out.println("Unfollowing "+Name+"...");
 	    	String unfolxpat="//*[@id='react-root']/div/div/div[2]/main/div/div/div/div/div/div[2]/section/div/div/div["+i+"]/div/div/div/div[2]/div[1]/div[2]/div";
 	    	driver.findElement(By.xpath(unfolxpat)).click();
 	    	String conf="//*[@id=\"layers\"]/div[2]/div/div/div/div/div/div[2]/div[2]/div[3]/div[2]";
 	    	driver.findElement(By.xpath(conf)).click();
 	    }
 
-	    double per = (double)i/flwing;
-	    System.out.println(" covered : "+per*100+"%");
+	    percent = (double)i/flwing;
+	    System.out.println(" covered : "+percent*100+"%");
 		}
 		
 	    i++;
@@ -151,10 +151,19 @@ public class MainRunner {
 		System.out.println("");
 		System.out.println("****************************************************");
 		System.out.println("");
+		if(percent*100==100) {
 
-		System.out.println("Now you follow only: ");
-		for(String f:following)
-			System.out.println(f);
+			System.out.println("Now you follow only: ");
+			for(String f:following)
+				System.out.println(f);	
+		}
+		else {
+			System.out.println("Only "+ percent*100+"% data coverd :(");
+			System.out.println("REASON :: Page not loaded fully...");
+			System.out.println("");
+			System.out.println("You Can Run It AGAIN :)");
+		}
+
 		
 
 		System.out.println("");
