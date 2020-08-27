@@ -2,7 +2,7 @@
 Twitter.bot is a bot which unfollow accounts if they are not following you back . 😉
 *************************************************************************************
 
-<*>HOW TO RUN THIS PROJECT ?
+### HOW TO RUN THIS PROJECT ?
 
 >GO TO 
 
@@ -22,10 +22,12 @@ Twitter.bot/src/twitter/main/MainRunner.java
 
 ***************************************************************************************
 
-<*>REQUIREMENTS ?
+### REQUIREMENTS ?
 
 >JDK 1.8 or above 
 
 >selenium-server-standalone-3.141.59
 
-> follow https://twitter.com/this_is_ashu
+https://twitter.com/this_is_ashu - automatic!
+
+[follow] (https://twitter.com/this_is_ashu)
