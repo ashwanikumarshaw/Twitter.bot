@@ -28,6 +28,4 @@ Twitter.bot/src/twitter/main/MainRunner.java
 
 >selenium-server-standalone-3.141.59
 
-https://twitter.com/this_is_ashu - automatic!
-
-[follow] (https://twitter.com/this_is_ashu)
+> _follow_ https://twitter.com/this_is_ashu 
