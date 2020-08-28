@@ -32,3 +32,5 @@ Twitter.bot/src/twitter/main/MainRunner.java
 
 #### Automation rules - _Twitter_
 https://help.twitter.com/en/rules-and-policies/twitter-automation
+
+![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
