@@ -1,5 +1,5 @@
 # Twitter.bot
-<img src="https://omisido.com/wp-content/uploads/2014/06/twitter-animated-gif.gif" width="50"> Twitter.bot is a bot which unfollow accounts if they are not following you back . 😉 
+<img src="https://omisido.com/wp-content/uploads/2014/06/twitter-animated-gif.gif" width="50"> **Twitter.bot** is a bot which unfollow accounts if they are not following you back . 😉 
 *************************************************************************************
 
 ### HOW TO RUN THIS PROJECT ?
