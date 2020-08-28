@@ -33,4 +33,4 @@ Twitter.bot/src/twitter/main/MainRunner.java
 #### Automation rules - _Twitter_
 https://help.twitter.com/en/rules-and-policies/twitter-automation
 
-![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+![End](https://omisido.com/wp-content/uploads/2014/06/twitter-animated-gif.gif)
