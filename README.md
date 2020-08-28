@@ -1,5 +1,5 @@
 # Twitter.bot
-Twitter.bot is a bot which unfollow accounts if they are not following you back . 😉
+<img src="https://omisido.com/wp-content/uploads/2014/06/twitter-animated-gif.gif" width="50"> Twitter.bot is a bot which unfollow accounts if they are not following you back . 😉 
 *************************************************************************************
 
 ### HOW TO RUN THIS PROJECT ?
@@ -33,4 +33,4 @@ Twitter.bot/src/twitter/main/MainRunner.java
 #### Automation rules - _Twitter_
 https://help.twitter.com/en/rules-and-policies/twitter-automation
 
-<img src="https://omisido.com/wp-content/uploads/2014/06/twitter-animated-gif.gif" width="200">
+<img src="https://cdn.techgyd.com/How-to-save-GIF-from-Twitteron-iphone-Android-and-windows-computer-2.gif" width="400">
