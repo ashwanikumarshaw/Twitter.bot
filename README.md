@@ -33,4 +33,4 @@ Twitter.bot/src/twitter/main/MainRunner.java
 #### Automation rules - _Twitter_
 https://help.twitter.com/en/rules-and-policies/twitter-automation
 
-<img src="https://cdn.techgyd.com/How-to-save-GIF-from-Twitteron-iphone-Android-and-windows-computer-2.gif" width="400">
+<!--img src="https://cdn.techgyd.com/How-to-save-GIF-from-Twitteron-iphone-Android-and-windows-computer-2.gif" width="400" !-->
